@@ -45,5 +45,10 @@ public class And implements Operator{
     public Operator getInstance() {
     	return new And();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 	
 }

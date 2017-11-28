@@ -44,4 +44,9 @@ public class Xnor implements Operator{
     public Operator getInstance() {
     	return new Xnor();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

@@ -22,9 +22,9 @@ import truthtableconstructor.operators.Xor;
  * @author Mohamed Mashaal
  */
 public class TruthTableConstructor {
-	ArrayList <Operator> supportedOperators ;
-    Evaluator evaluator ;
-    Transformer transformer ;
+	private ArrayList <Operator> supportedOperators ;
+	private Evaluator evaluator ;
+    private Transformer transformer ;
 	/**
      * @param args the command line arguments
      */
@@ -58,5 +58,9 @@ public class TruthTableConstructor {
 		supportedOperators.add(new Xor());
 		supportedOperators.add(new Xnor());
 		supportedOperators.add(new Implies());
+	}
+	
+	public ArrayList<Operator> getSupportedOperators() {
+		return supportedOperators;
 	}
 }

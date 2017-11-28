@@ -45,4 +45,9 @@ public class Nor implements Operator{
     public Operator getInstance() {
     	return new Nor();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

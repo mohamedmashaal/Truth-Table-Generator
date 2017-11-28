@@ -40,4 +40,9 @@ public class Not implements Operator{
     public Operator getInstance() {
     	return new Not();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

@@ -45,4 +45,9 @@ public class Xor implements Operator{
     public Operator getInstance() {
     	return new Xor();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

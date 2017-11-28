@@ -45,4 +45,9 @@ public class Or implements Operator{
     public Operator getInstance() {
     	return new Or();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

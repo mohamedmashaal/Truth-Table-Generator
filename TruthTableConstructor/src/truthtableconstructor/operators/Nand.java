@@ -45,4 +45,9 @@ public class Nand implements Operator{
     public Operator getInstance() {
     	return new Nand();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }

@@ -44,4 +44,9 @@ public class Implies implements Operator{
     public Operator getInstance() {
     	return new Implies();
     }
+
+	@Override
+	public String getRepresentation() {
+		return REPRESENTATION;
+	}
 }
